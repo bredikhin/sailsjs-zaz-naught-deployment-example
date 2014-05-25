@@ -4,6 +4,8 @@
 
 Clone, `npm install`.
 
+Also, install [Zaz](https://github.com/bredikhin/zaz): `sudo npm install -g zaz`.
+
 ## Configuration
 
 Configure your [Zaz](https://github.com/bredikhin/zaz) deployment stages in `zaz.json`.
