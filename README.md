@@ -1,7 +1,5 @@
 # Deploying a Sails.js project with Zaz and Naught
 
-[![Build Status](https://travis-ci.org/bredikhin/sailsjs-zaz-naught-deployment-example.png?branch=master)](https://travis-ci.org/bredikhin/sailsjs-zaz-naught-deployment-example)
-
 ## Installation
 
 Clone, `npm install`.
