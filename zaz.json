@@ -1,0 +1,13 @@
+{
+  "stages": {
+    "production": {
+      "user": "deployer",
+      "git": "https://github.com/bredikhin/sailsjs-zaz-naught-deployment-example.git",
+      "path": "~/sailsjs-zaz-naught-deployment-example",
+      "hosts": [
+        "yourwonderfulhostnameoripaddresshere.com"
+      ]
+    }
+  }
+}
+
