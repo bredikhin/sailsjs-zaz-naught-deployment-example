@@ -48,10 +48,12 @@ try {
 	}
 }
 
+// Deploying with Naught: send the `online` message
 sails.on('lifted', function() {
   process.send('online');
 });
 
+// Deploying with Naught: graceful shutdown
 process.on('message', function(message) {
   if (message === 'shutdown') {
     sails.lower();
