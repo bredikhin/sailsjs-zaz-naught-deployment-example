@@ -1,16 +1,23 @@
 # Deploying a Sails.js project with Zaz and Naught
 
+[Sails.js](http://sailsjs.org/) is a modern API-oriented JavaScript framework that makes
+it extremely easy to write powerful Web-applications of any scale with Node.js. Deploying
+these applications can sometimes be quite challenging and includes not only delivering
+the code to the servers, but also process management. Let's see how to use
+[Zaz](https://github.com/bredikhin/zaz) and [Naught](https://github.com/andrewrk/naught)
+to deploy a Sails.js project.
+
 ## Installation
 
 Clone, `npm install`.
 
-Also, install [Zaz](https://github.com/bredikhin/zaz): `sudo npm install -g zaz`.
+Also, install Zaz: `sudo npm install -g zaz`.
 
 ## Configuration
 
-Configure your [Zaz](https://github.com/bredikhin/zaz) deployment stages in `zaz.json`.
+Configure your Zaz deployment stages in `zaz.json`.
 
-Configure your [Naught](https://github.com/andrewrk/naught) commands in `package.json`,
+Configure your Naught commands in `package.json`,
 `scripts` section like this:
 
     ...
